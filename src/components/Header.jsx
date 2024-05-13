@@ -1,4 +1,4 @@
-
+import Nav from './Nav'
 
 function Header(){
     
@@ -6,11 +6,7 @@ function Header(){
         <>
         <header>
         <h1>Portfolio</h1>
-          <nav>
-            <a href= ""></a>
-            <a href= ""></a>
-            <a href= ""></a>
-          </nav>
+        <Nav/>
 
       </header>
       </>

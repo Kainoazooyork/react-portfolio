@@ -1,29 +1,20 @@
-import './App.css'
 
+import { Outlet } from 'react-router-dom';
+
+import './App.css'
+import Header from "./components/Header"
 function App() {
 
 
   return (
     <>
-    
- {/* Header */}
 
-      <main>
-        <sec>
-          <h2>About Me</h2>
-       </sec>
-       <sec>
-          <h2>Projects</h2>
-      </sec>
-      <sec>
-          <h2>Contact</h2>
-      </sec>
-
-      </main>
+      {/* Header */}
+      <Header />
+      <Outlet />
 
       <footer>
-        <a href= "https://github.com/Kainoazooyork">Github</a>
-
+        <a href="https://github.com/Kainoazooyork">Github</a>
       </footer>
     </>
   )

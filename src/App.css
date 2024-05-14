@@ -18,6 +18,20 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.projectImage {
+  width: 75vw;
+  height: 75vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.selfie {
+  border-radius: 100%;
+  width: 25%;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
